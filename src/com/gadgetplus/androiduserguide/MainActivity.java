@@ -173,10 +173,10 @@ public class MainActivity extends Activity {
 
 				OutputStream output = new FileOutputStream(Environment
 						.getExternalStorageDirectory().getPath()
-						+ "/androiduserguideth.xml");
+						+ "/androiduserguide.xml");
 
 				Log.d("FILE", Environment.getExternalStorageDirectory()
-						.getPath() + "/androiduserguideth.xml");
+						.getPath() + "/androiduserguide.xml");
 
 				byte data[] = new byte[1024];
 
@@ -240,7 +240,7 @@ public class MainActivity extends Activity {
 		try {
 
 			File fXmlFile = new File(Environment.getExternalStorageDirectory()
-					.getPath() + "/androiduserguideth.xml");
+					.getPath() + "/androiduserguide.xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
 					.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
