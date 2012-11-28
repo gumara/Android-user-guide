@@ -1,0 +1,11 @@
+ <resources>
+
+    <string name="app_name">Android user guide</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_update">Update</string>
+    <string name="title_activity_main">Android user guide</string>
+    <string name="menu_share">Share...</string>
+    <string name="text_share_subject">Android user guide App.</string>
+    <string name="text_share_body">Learn how to use Android with me :)</string>
+
+</resources>
