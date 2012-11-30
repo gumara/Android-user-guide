@@ -55,9 +55,8 @@ public class MainActivity extends Activity {
 	private ProgressDialog mProgressDialog;
 	//String feedurl = "http://query.yahooapis.com/v1/public/yql?q=select%20title%2Clink%20from%20feed%20where%20url%3D%22https%3A%2F%2Fgdata.youtube.com%2Ffeeds%2Fapi%2Fplaylists%2F9CC79690BA88A69D%3Fv%3D2%22%20%20and%20link.rel%3D%22alternate%22";
 	
-	String feedurl = "http://query.yahooapis.com/v1/public/yql?q=select%20title%2Clink%20from%20feed%20where%20url%3D%22https%3A%2F%2Fgdata.youtube.com%2Ffeeds%2Fapi%2Fplaylists%2FPLMdlsEUunGVhmai57AzhVQFpRLoHYig3Y%3Fv%3D2%22%20%20and%20link.rel%3D%22alternate%22";
-	//String feedurl = "http://www.youtube.com/playlist?list=PL409EF460C2C3C444";
-
+	String feedurl = "http://query.yahooapis.com/v1/public/yql?q=select%20title%2Clink%20from%20feed%20where%20url%3D%22https%3A%2F%2Fgdata.youtube.com%2Ffeeds%2Fapi%2Fplaylists%2FPLMdlsEUunGVjV9DP6GmxzkVx8jDCM62-E%3Fv%3D2%22%20%20and%20link.rel%3D%22alternate%22";
+	//String feedurl = "http://www.youtube.com/playlist?list=PLMdlsEUunGVjV9DP6GmxzkVx8jDCM62-E";
 	
 	
 	@Override
@@ -68,7 +67,7 @@ public class MainActivity extends Activity {
 		 
 		// load admob
 		// Create the adView
-		adView = new AdView(this, AdSize.BANNER, "a1509a88683669a");
+		adView = new AdView(this, AdSize.BANNER, "a150b8c4d9a5c05");
 		// Lookup your LinearLayout assuming it’s been given
 		// the attribute android:id="@+id/mainLayout"
 		LinearLayout layout = (LinearLayout) findViewById(R.id.mainLayout);
